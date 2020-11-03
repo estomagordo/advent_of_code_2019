@@ -297,3 +297,52 @@ def test_21b():
 
     answer = day_21b.read_and_solve()
     assert(1143625214 == answer)
+
+
+def test_22a():
+    import day_22a
+
+    answer = day_22a.read_and_solve()
+    assert(6326 == answer)
+
+
+def test_22b():
+    import day_22b
+
+    answer = day_22b.read_and_solve()
+    assert(40522432670594 == answer)
+
+
+def test_23a():
+    import day_23a
+
+    answer = day_23a.read_and_solve()
+    assert(27182 == answer)
+
+
+def test_23b():
+    import day_23b
+
+    answer = day_23b.read_and_solve()
+    assert(19285 == answer)
+
+
+def test_24a():
+    import day_24a
+
+    answer = day_24a.read_and_solve()
+    assert(19362822 == answer)
+
+
+def test_24b():
+    import day_24b
+
+    answer = day_24b.read_and_solve()
+    assert(1983 == answer)
+
+
+def test_25a():
+    import day_25a
+
+    answer = day_25a.read_and_solve()
+    assert(11534338 == answer)
