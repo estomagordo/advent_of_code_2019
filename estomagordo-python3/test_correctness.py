@@ -331,7 +331,7 @@ def test_24a():
     import day_24a
 
     answer = day_24a.read_and_solve()
-    assert(19362822 == answer)
+    assert(20751345 == answer)
 
 
 def test_24b():
@@ -341,8 +341,8 @@ def test_24b():
     assert(1983 == answer)
 
 
-def test_25a():
-    import day_25a
+# def test_25a():
+#     import day_25a
 
-    answer = day_25a.read_and_solve()
-    assert(11534338 == answer)
+#     answer = day_25a.read_and_solve()
+#     assert(11534338 == answer)
