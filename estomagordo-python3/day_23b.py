@@ -44,7 +44,7 @@ def solve(d):
 
         if not first and all(len(inb) == 0 for inb in inbound) and all(c.input == -1 for c in computers) and all(len(o) == 0 for o in outbound) and nat:
             if prevnat and prevnat[1] == nat[1]:
-                return nat[1]
+                return nat[1] - 1
             if computers[0].input == -1:
                 computers[0].set_input(nat[0])
             else:
