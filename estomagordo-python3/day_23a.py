@@ -36,10 +36,7 @@ def solve(d):
                     computers[i].set_input(inbound[i].popleft())
                 else:
                     computers[i].set_input(-1)
-
-
-
-    
+                        
 
 def read_and_solve():
     with open('input_23.txt') as f:
